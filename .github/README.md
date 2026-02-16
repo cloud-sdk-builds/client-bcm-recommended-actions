@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-bcm-recommended-actions`](https://www.npmjs.com/package/@aws-sdk/client-bcm-recommended-actions/v/3.919.0).
+[`@aws-sdk/client-bcm-recommended-actions`](https://www.npmjs.com/package/@aws-sdk/client-bcm-recommended-actions/v/3.920.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.919.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.920.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-k8z1mtakGRJq41kWFRuaixYbUWNowMRa+vBnHW1mmrzP1LeRGNubB142tqBB5zjS
+sha384-GXOsRay7N0deLhP5CuP61rJ2P7B/8kyb0ZJ9I0hW6RuXlxxdQflzZ1JsHWaCKARe
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-bcm-recommended-actions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.919.0/index.min.mjs"
+            "@aws-sdk/client-bcm-recommended-actions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.920.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.919.0/index.min.mjs": "sha384-k8z1mtakGRJq41kWFRuaixYbUWNowMRa+vBnHW1mmrzP1LeRGNubB142tqBB5zjS"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.920.0/index.min.mjs": "sha384-GXOsRay7N0deLhP5CuP61rJ2P7B/8kyb0ZJ9I0hW6RuXlxxdQflzZ1JsHWaCKARe"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-bcm-recommended-actions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.919.0/index.min.mjs"
+                        "@aws-sdk/client-bcm-recommended-actions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.920.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.919.0/index.min.mjs": "sha384-k8z1mtakGRJq41kWFRuaixYbUWNowMRa+vBnHW1mmrzP1LeRGNubB142tqBB5zjS"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-recommended-actions@3.920.0/index.min.mjs": "sha384-GXOsRay7N0deLhP5CuP61rJ2P7B/8kyb0ZJ9I0hW6RuXlxxdQflzZ1JsHWaCKARe"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.919.0`)
+* Always pin to a specific version (`@3.920.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-bcm-recommended-actions/blob/refs/tags/3.919.0/LICENSE
+https://github.com/cloud-sdk-builds/client-bcm-recommended-actions/blob/refs/tags/3.920.0/LICENSE
 ```
 
 ---
